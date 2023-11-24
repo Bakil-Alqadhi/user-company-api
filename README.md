@@ -36,7 +36,6 @@ The project directory structure reflects the adherence to the Repository pattern
 
 To illustrate the use of the Repository pattern, consider the following example:
 
-```php
 // Example code demonstrating the usage of UserRepository
 private UserRepositoryInterface $userRepository;
 
