@@ -1,4 +1,4 @@
-# Your Project Name API Documentation
+# user-company API Documentation
 
 ## Table of Contents
 - [Setup](#setup)
