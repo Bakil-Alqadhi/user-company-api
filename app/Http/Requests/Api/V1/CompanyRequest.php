@@ -39,4 +39,18 @@ class CompanyRequest extends FormRequest
             ];
         }    
     }
+    public function messages()
+    {
+        return [
+            'name.required' => 'Please enter a name.',
+            'name.min' => 'Name must be at least 3 characters.',
+            'name.max' => 'Name cannot be more than 40 characters.',
+            'description.required' => 'Please enter a description.',
+            'description.between' => 'Description must be between 150 and 400 characters.',
+            'logo.required' => 'Please upload a company logo.',
+            'logo.image' => 'Logo must be an image.',
+            'logo.mimes' => 'Logo must be in PNG format.',
+            'logo.max' => 'Logo size cannot exceed more than 3 MB.',
+        ];
+    }
 }

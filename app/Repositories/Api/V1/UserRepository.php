@@ -9,12 +9,13 @@ class UserRepository implements UserRepositoryInterface  {
 
     public function getAllUsers(){
 
-        return UserResource::collection(User::all());
+        // return UserResource::collection(User::all());
+        return User::orderBy('created_at', 'desc')->paginate(3);
     }
 
     public function storeUser($data){
-
-        return User::create($data);
+        $user = User::create($data);
+        return new UserResource($user);
     }
 
     public function getUserById($user) {

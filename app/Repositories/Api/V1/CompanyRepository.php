@@ -10,7 +10,8 @@ use App\Models\Company;
 class CompanyRepository implements CompanyRepositoryInterface  {
 
     public function getAllCompanies(){
-        return CompanyResource::collection(Company::all());
+        // return CompanyResource::collection(Company::all());
+        return Company::orderBy('created_at', 'desc')->paginate(3);
     }
 
 

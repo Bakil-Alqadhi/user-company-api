@@ -38,4 +38,19 @@ class CommentRequest extends FormRequest
             ];
         }
     }
+
+    public function messages()
+    {
+        return [
+            'user_id.required' => 'User ID is required.',
+            'user_id.exists' => 'Invalid user ID. Please provide a valid user ID.',
+            'company_id.required' => 'Company ID is required.',
+            'company_id.exists' => 'Invalid company ID. Please provide a valid company ID.',
+            'content.required' => 'Please enter a comment.',
+            'content.between' => 'Comment must be between 150 and 550 characters.',
+            'rating.required' => 'Please provide a rating.',
+            'rating.integer' => 'Rating must be an integer.',
+            'rating.between' => 'Rating must be between 1 and 10.',
+        ];
+    }
 }

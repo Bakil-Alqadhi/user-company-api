@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Api\V1;
 use App\Http\Controllers\Controller;
 use App\Models\Company;
 use App\Http\Resources\Api\V1\CommentResource;
-
+use App\Http\Requests\Api\V1\CompanyRequest;
 use App\Interfaces\Api\V1\CompanyRepositoryInterface;
 use Illuminate\Http\Request;
 use App\Helpers\Helper;
