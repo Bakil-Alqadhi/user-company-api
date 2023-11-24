@@ -36,11 +36,11 @@ The project directory structure reflects the adherence to the Repository pattern
 
 To illustrate the use of the Repository pattern, consider the following example:
 
-- private UserRepositoryInterface $userRepository;
+private UserRepositoryInterface $userRepository;
 
-- public function __construct(UserRepositoryInterface $userRepository){
--    $this->userRepository = $userRepository;
-- }
+public function __construct(UserRepositoryInterface $userRepository){
+   $this->userRepository = $userRepository;
+}
 
 ## Table of Contents
 - [Setup](#setup)
