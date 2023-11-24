@@ -439,7 +439,7 @@ Access your application in your browser at http://localhost:8000 (or the specifi
             }
         - Headers: StatusCode
 
-- Delete comments by Id
+- Delete comment by Id
     - Endpoint: DELETE /api/v1/comments/{id} 
     - Params { id: string; }
     - Response: 
