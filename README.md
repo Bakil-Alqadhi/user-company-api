@@ -8,7 +8,7 @@ Make sure you have the following installed before proceeding:
 
 - [PHP](https://www.php.net/) = 8.1
 - [Composer](https://getcomposer.org/)
-=======
+
 # user-company API Documentation
 
 ## Table of Contents
@@ -447,5 +447,3 @@ Access your application in your browser at http://localhost:8000 (or the specifi
                 "message" : "Comment deleted successfully"
             }
         - Headers: StatusCode
-
-=======
