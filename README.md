@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # user-company-api
 
 Welcome to the Project user-company-api!
@@ -8,6 +9,9 @@ Make sure you have the following installed before proceeding:
 
 - [PHP](https://www.php.net/) = 8.1
 - [Composer](https://getcomposer.org/)
+=======
+# user-company API Documentation
+>>>>>>> 0a135df0387ecd353398c693c267dea7855388fa
 
 ## Table of Contents
 - [Setup](#setup)
@@ -15,6 +19,7 @@ Make sure you have the following installed before proceeding:
   - [Users](#users)
   - [Companies](#companies)
   - [Comments](#comments)
+<<<<<<< HEAD
 
 ### Setup
 1. Clone the repository: https://github.com/Bakil-Alqadhi/user-company-api.git
@@ -446,3 +451,5 @@ Access your application in your browser at http://localhost:8000 (or the specifi
             }
         - Headers: StatusCode
 
+=======
+>>>>>>> 0a135df0387ecd353398c693c267dea7855388fa
