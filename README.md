@@ -11,6 +11,39 @@ Make sure you have the following installed before proceeding:
 
 # user-company API Documentation
 
+## Project Architecture
+
+### Design Patterns
+
+#### Repository Pattern
+
+This project follows the Repository pattern as a fundamental design principle. The Repository pattern is implemented to achieve a separation of concerns between the data access logic and the rest of the application. Key features of the Repository pattern in this project include:
+
+- **Centralized Data Access:** Data access logic is encapsulated within dedicated repository classes.
+  
+- **Abstraction of Data Source:** The repositories abstract the underlying data storage, providing a consistent interface for the rest of the application.
+
+
+### Directory Structure
+
+The project directory structure reflects the adherence to the Repository pattern. Relevant components include:
+
+- **app/Repositories:** Contains the repository classes responsible for data access.
+
+- **app/Interfaces:** Houses the interfaces defining contracts for repositories.
+
+### Example Repository Usage
+
+To illustrate the use of the Repository pattern, consider the following example:
+
+```php
+// Example code demonstrating the usage of UserRepository
+private UserRepositoryInterface $userRepository;
+
+public function __construct(UserRepositoryInterface $userRepository){
+    $this->userRepository = $userRepository;
+}
+
 ## Table of Contents
 - [Setup](#setup)
 - [API Endpoints](#api-endpoints)
